@@ -32,18 +32,30 @@ h1
     color: white;
 }
 
+/* The container that contains the menu tabs */
+#menuNav
+{
+    /* turns the container into a flex container, flex-wrap controls whether the flex container is single-line or multi-line*/
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+
 /* Styling the menuTabs: */
 .menuTab
 {
+    font-size: 3px; /* Height*/
+    padding-left: 95%; /* width*/
+    /*colour and border styke*/
     background-color: rgb(255, 255, 255);
-    width: 125px;
-    height: 3px;
     border-radius: 10px;
-
 }
 
 /* Styling the menuLabels */
 .menuLabel
 {
+    /* speration distance */
+    margin-left: 5px;
+    margin-right: 5px;
     color: rgb(255, 255, 255);
 }

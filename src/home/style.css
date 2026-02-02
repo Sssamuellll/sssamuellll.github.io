@@ -34,6 +34,7 @@
 #projectGrid
 {
     /* turns the container into a flex container, flex-wrap controls whether the flex container is single-line or multi-line*/
+    justify-content: center;
     display:flex;
     flex-wrap: wrap;
     padding-left: 1%;
