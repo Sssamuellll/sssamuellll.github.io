@@ -44,8 +44,17 @@
 
 .projectItem
 {
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    background-color: rgb(2, 18, 37);
+    /* Seperating each item visually from each other*/
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    /* padding the project item out */
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    border-radius: 1rem;
 }
 
 /* Styling the project heading: 2*/
@@ -62,15 +71,16 @@
 
 .projectImg
 {
-    width: 350px;
-    height: 200px;
-    border-radius: 10px;
+    display: block;
+    width: 320px;
+    height: 170px;
+    border-radius: 1rem;
 }
 
-.projectImg:hover
+.projectItem:hover
 {
-    width: 355px;
-    height: 205px; 
-    outline: white;
+    outline-color: white;
+    outline-style: solid;
+    background-color: rgb(3, 24, 49);
     cursor: pointer;
 }
