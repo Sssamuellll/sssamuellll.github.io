@@ -71,10 +71,13 @@
 
 .projectImg
 {
-    display: block;
-    width: 320px;
-    height: 170px;
-    border-radius: 1rem;
+    display: block; /*Removes unwanted space below image*/
+    justify-self: center; /* centers the image */
+    /* adjusts the size of the image */
+    padding: 0.7%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem; /* makes the image corners curved */
 }
 
 .projectItem:hover

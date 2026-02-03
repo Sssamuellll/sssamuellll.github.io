@@ -46,7 +46,7 @@ h1
 {
     font-size: 3px; /* Height*/
     padding-left: 95%; /* width*/
-    /*colour and border styke*/
+    /*colour and border style*/
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
@@ -58,6 +58,46 @@ h1
     margin-left: 5px;
     margin-right: 5px;
     color: rgb(255, 255, 255);
+}
+
+/* Project Drop down menu */
+.menuOption #menuOption2 .menuLabel
+{
+
+}
+/* styling drop down content*/
+.dropdown
+{
+    position: fixed;
+    justify-self: center;
+    padding-left: 3.5%;
+    z-index: 999;
+    display: none;
+}
+
+/* styling all of the <a>'s in dropdown: */
+.dropdown a
+{
+    display: block; /* displays as block on seperate lines rather than all over the place on one line */
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: rgb(2, 18, 37);
+    /* adding border to thicken the background */
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(2, 18, 37);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    /* text styling */
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown a:hover
+{
+    background-color: rgb(3, 24, 49);
+    border-color: rgb(3, 24, 49);
+    color: rgb(123, 224, 255);
 }
 
 /* Webpage footer section styling: */

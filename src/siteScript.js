@@ -8,9 +8,16 @@ let menuOptions = document.querySelectorAll(".menuOption");
 function hover_over_tab(_element, _isHovering)
 {
     // Retrieves the menu option's tab visual and text as well as assigning the pointer value to cursor:
-    const tab = _element.children[0];
-    const text = _element.children[_element.children.length-1];
+    const tab = _element.children[0]
+    const text = _element.children[2];
+    let dropdown = null;
     _element.style.cursor = "pointer";
+
+    /* if the element has more children the assign it to dropdown:*/
+    if(_element.children.length > 3)
+    {
+        dropdown = _element.children[3];
+    }
 
     // Style changes are applied dependant on whether the user is hovering over the element:
     if(_isHovering)
@@ -18,12 +25,24 @@ function hover_over_tab(_element, _isHovering)
         // When hovering: enlarge the tab and change the colour of the text:
         tab.style.fontSize = "5px";
         text.style.color = "rgb(123, 224, 255)";
+        // if dropdown is valid:
+        if(dropdown !== null)
+        {
+            // Change the dropdown's display style to block e.g. visible:
+            dropdown.style.display = "block";
+        }
     }
     else
     {
         // When not hovering: reset both menuOption tab and text:
         tab.style.fontSize = "3px";
         text.style.color = "rgb(255, 255, 255)";
+        // Again if dropdown is valid
+        if(dropdown !== null)
+        {
+            // Change dropdown's display style to none e.g. hidden:
+            dropdown.style.display = "none";
+        }
     };
 };
 
