@@ -1,7 +1,8 @@
 // Site JavaScript Functionality:
 // Variables:
 // Grabbing all the elements that have the class attribute of menuOption.
-let menuOptions = document.querySelectorAll(".menuOption");
+const menuOptions = document.querySelectorAll(".menuOption");
+const projectItems = document.querySelectorAll(".projectItem");
 
 // Functions:
 // When called, changes the element color dependant on whether the mouse is hovering over it:
@@ -54,3 +55,16 @@ menuOptions.forEach((mOption) =>
     mOption.addEventListener("mouseenter", function ()  {hover_over_tab(mOption, true)}, false);
     mOption.addEventListener("mouseleave", function ()  {hover_over_tab(mOption, false)}, false);
 });
+
+// Adding click event listeners:
+// Option Menu: Home, when clicked, sends the user to the website homepage:
+menuOptions[0].addEventListener("click", function ()
+{
+    window.location.href = "../../../src/home/index.html";
+});
+
+// Retrieving projectItem's titles and assigning them to the project tab dropdown:
+for(let i = 0; i < projectItems.length; i++)
+{
+    menuOptions[1].children[3].children[i].text = projectItems[i].children[1].textContent;
+};

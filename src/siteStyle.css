@@ -1,9 +1,12 @@
 /*This is the unifed styling for each webpage.*/
+/*Importing fonts:*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 /* Changing the webpage background colour and selecting a font family: */
 body
 {
     background-color: rgb(0, 20, 43);
+    /*font-family: Arial, Helvetica, sans-serif;*/
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
 }
@@ -26,9 +29,20 @@ body
 }
 
 /* WebPage Heading, changing its colour and alignment: */
-h1
+#heading
 {
-    top: 0px;
+    font-size: 42px;
+    font-style: normal;
+    color: white;
+}
+.titles
+{
+    /* Assigning a different font: */
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /*----------------------------*/
+    font-style: normal;
     color: white;
 }
 
@@ -36,6 +50,7 @@ h1
 #menuNav
 {
     /* turns the container into a flex container, flex-wrap controls whether the flex container is single-line or multi-line*/
+    padding-top: 12px;
     justify-content: center;
     display:flex;
     flex-wrap: wrap;
@@ -61,10 +76,6 @@ h1
 }
 
 /* Project Drop down menu */
-.menuOption #menuOption2 .menuLabel
-{
-
-}
 /* styling drop down content*/
 .dropdown
 {
