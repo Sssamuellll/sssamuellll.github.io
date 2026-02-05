@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport", content="width=device-width, initial-scale=1.0"/>
-    <title>Project: Final Project</title>
+    <title>Project: Computer Graphics Programming</title>
     <link rel="stylesheet", href="../../siteStyle.css"/>
     <link rel="stylesheet", href="../projectStyles.css"/>
     <link rel="stylesheet", href="style.css"/>
@@ -43,49 +43,39 @@
         </div>
     </header>
     <div id="project", class="contentBlock">
-        <h id="projectTitle" class="titles">FINAL YEAR PROJECT</h>
-        <p id="grade">GRADE: 73.91%</p>
+        <h id="projectTitle" class="titles">COMPUTER GRAPHICS PROGRAMMING</h>
+        <p id="grade">GRADE: 70.27%</p>
+        <video width="720", height="280" controls class="projectVideo">
+            <source src="../../../assets/Computer_Graphics_Video.mp4" type="video/mp4">
+            Your browser doesn't support the video tag being displayed.
+        </video>
         <div class="projectDetails"> 
             <h class="projectDetailTopic">Platform |</h>
-            <h class="projectDetailInfo">Windows & HTML5</h>
+            <h class="projectDetailInfo">Windows</h>
             <br>    
             <h class="projectDetailTopic">Engine |</h>
-            <h class="projectDetailInfo">Unity, C#</h>
+            <h class="projectDetailInfo">None, C++</h>
             <br>    
             <h class="projectDetailTopic">Project Duration |</h>
-            <h class="projectDetailInfo">Februrary 2025 - May 2025</h>
+            <h class="projectDetailInfo">October 2024 - January 2025</h>
             <br>    
             <h class="projectDetailTopic">Tools Used |</h>
-            <h class="projectDetailInfo">Visual Studio, GitHub, Adobe Photoshop, Mixamo, Unity Asset Store</h>
+            <h class="projectDetailInfo">Visual Studio, SDL2, OpenGL, GLM, GLSL, ImGui</h>
             <br>    
             <h class="projectDetailTopic">Methodologies |</h>
-            <h class="projectDetailInfo">Finite State Machines, Object Oriented Programming</h>
+            <h class="projectDetailInfo">(PBR) Physically Based Rendering, (BRDF) Bidirectional Reflectance Distribution Function,
+                (IBL) Image Based Lighting, Object Oriented Programming</h>
         </div>
         <hr>
         <div id="projectOverview">
             <h class="subtitles">OVERVIEW</h>
             <p class="projectText">
-                This was my University final year project where I aimed to research and prototype a solution that would help solve the
-                current issues with NPCs (Non-playable character) reponses that can become predictable and lead to break the player's
-                immersion. The solution proposed is an Emotional Component system that can be integrated into the base mechanics of NPCs.
-                This system aims to maintain player immersion through simulating accurate reponses to player actions. Rather than 
-                instantaneously transitioning from one extreme state to another. The NPC is eased into a response based on their current
-                weighted emotions. Extreme responses are possible but require the player to be persistent in their actions towards the NPC.
+                A base demo application was provided before exploring PBR theory and researching various BRDF equations that could 
+                be implemented into this program. Along with the existing Blinn-Phong shader, I implemented two additional BRDF shaders.
+                The purpose of the application is to demonstrate a comparison between Blinn-Phong's lighting solution and the modern
+                PBR solutions as well as to practice computer graphcis programming. IBL was attempted by implementing a cubemap skybox within
+                the established scene to eventually influence the objects lighting further.
             </p>
-            <p class="projectText">
-                The application is a demonstration that is split into two artefacts. Artefact 1 aims to demonstrate NPCs with no Emotional
-                Component whereas, Artefact 2 showcases the same NPCs and environment with the Emotional Component integrated within the NPCs.
-                There is no established end goal, this application is only a demonstration prototype.
-            </p>
-            <h class="subtitles">HOW TO PLAY</h>
-            <ul id="tutorial" class="projectText">
-                <li>Use the keys W,A,S,D to move.</li>
-                <li>Use SPACE or LEFT-SHIFT to sprint.</li>
-                <li>Use the LEFT-MOUSE-BUTTON to navigate the various menus and attack objects.</li>
-                <li>Use the ESCAPE key to open the pause menu.</li>
-                <li>Use the I key to interact with the NPCs when nearby them (NPS will only acknowledge interactions once stationary 
-                    near the player).</li>
-            </ul>
         </div>
     </div>
     <footer id="footer", class="contentBlock"></footer>

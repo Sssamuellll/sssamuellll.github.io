@@ -11,6 +11,19 @@ body
     justify-content: center;
 }
 
+/* forcing images to scale with the browser window */
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+video
+{
+    max-width: 100%;
+    height: auto;
+}
+
 /* Styling the collective content on the page */
 .contentBlock
 {
