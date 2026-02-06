@@ -63,22 +63,6 @@ hr
     margin: 0 auto;
 }
 
-/* Styling all elements that hold the subtitles class, utilising the imported google font: */
-.Subtitles
-{
-    /* Assigning a different font: */
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    /*----------------------------*/
-    font-style: normal;
-    color: white;
-
-    padding-left: 4%;
-    text-decoration: underline;
-    font-size: 24px;
-}
-
 #projectOverview
 {
     text-align: left;

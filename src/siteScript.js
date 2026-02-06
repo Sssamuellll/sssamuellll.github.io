@@ -2,7 +2,7 @@
 
 // Adding in the header as a template literal:
 const content = `
-        <h id="heading", class="Titles">SAMUEL PORTFOLIO</h>
+        <h id="heading", class="Titles">SAMUEL LEACH</h>
         <div id="menuNav">
             <span id="menuOption1", class="MenuOption">
                 <span class="MenuTab"></span>
@@ -24,7 +24,7 @@ const content = `
                 <span class="MenuTab"></span>
                 <br>
                 <!-- target="_blank" opens link in new tab-->
-                <a href="", target="_blank" class="MenuLabel">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/samuel-leach-422364283/", target="_blank" class="MenuLabel">LinkedIn</a>
             </span>
             <span id="menuOption4", class="MenuOption">
                 <span class="MenuTab"></span>

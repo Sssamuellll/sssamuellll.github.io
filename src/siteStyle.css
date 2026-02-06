@@ -60,6 +60,25 @@ video
     /*----------------------------*/
     font-style: normal;
     color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 18px;
+}
+
+/* Styling all elements that hold the subtitles class, utilising the imported google font: */
+.Subtitles
+{
+    /* Assigning a different font: */
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /*----------------------------*/
+    font-style: normal;
+    color: white;
+
+    padding-left: 4%;
+    text-decoration: underline;
+    font-size: 24px;
 }
 
 /* The container that contains the menu tabs */

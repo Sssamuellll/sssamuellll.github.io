@@ -5,12 +5,13 @@
     color: white;
     background-color: rgb(1, 15, 31) ;
     border-radius: 1rem; /* rounded border */
-    padding-bottom: 7%;
+    padding-bottom: 1%;
 }
 
 /* Styling the about heading: 2*/
 #aboutTitle
 {
+    font-size: 24px;
     padding-top: 1%;
     padding-left: 2%;
     text-decoration: underline;
@@ -19,6 +20,30 @@
 #aboutText
 {
     padding-left: 2%;
+    padding-right: 4%;
+}
+
+/* Styling the Contact Info section: */
+#contactInfoTitle
+{
+    text-decoration: underline;
+}
+
+.ContactInfo
+{
+    padding-top: 7px;
+    padding-left: 2%;
+}
+
+.ContactTopic
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ContactPoint
+{
+    color: rgb(123, 224, 255);
 }
 
 /* Styling the project section container:*/
@@ -61,6 +86,7 @@
 /* Styling the project heading: 2*/
 #projectTitle
 {
+    font-size: 24px;
     padding-top: 1%;
     text-align: center;
     text-decoration: underline;
